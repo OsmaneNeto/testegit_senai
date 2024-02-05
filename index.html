@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoZero</title>
+</head>
+
+<body>
+
+
+    <script>
+        meuNome="Osmane"
+        maeNome="Sandra"
+        // minhaIdade=20
+        // idadeMae=45
+        anoeu =calcularIdade(window.prompt("Meu ano de Nascimento",2003))
+        anomae=calcularIdade(window.prompt("Ano de Nascimento de sua mãe",1800))
+        function maiorIdades(){
+            maiorIdade = anoeu>=18 ? "maior":"Menor"
+        }
+        
+       
+        
+        if (anoeu=> 18) {
+            console.log(`${meuNome}: Maior de Idade`)
+        } else {
+            console.log(`${meuNome}: Menor de Idade`)
+        }
+
+        if (anomae=> 18) {
+            console.log(`${maeNome}: Maior de Idade`)
+        } else {
+            console.log(`${maeNome}: Menor de Idade`)
+        }
+
+
+        console.log("Minha idade: "+anoeu)
+        console.log("Idade mãe: "+anomae)
+        console.log(`Meu nome: ${meuNome}`)
+        console.log(`Nome Mâe: ${maeNome}`)
+        console.log(maiorIdade )
+      //  console.log(meuNome+"\t"+ minhaIdade+"\n"+maeNome+"\t"+ idadeMae)
+        console.log(typeof(meuNome))
+        // console.log(typeof(minhaIdade))
+        console.log(typeof(maeNome))
+        // console.log(typeof(idadeMae))
+
+        console.log("Elon Musk\nMaye musk\nErrol Musk")
+
+        function calcularIdade(idade){
+            //Corpo da Função
+            return 2024-idade
+        }
+        console.log(calcularIdade)
+    </script>  
+  
+</body>
+</html>
